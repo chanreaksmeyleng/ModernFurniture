@@ -375,6 +375,16 @@
       display: inline-flex;
     }
   }
+  .md\:p-\[45\] {
+    @media (width >= 48rem) {
+      padding: 45;
+    }
+  }
+  .md\:p-\[45px\] {
+    @media (width >= 48rem) {
+      padding: 45px;
+    }
+  }
   .md\:text-\[16px\] {
     @media (width >= 48rem) {
       font-size: 16px;
@@ -388,6 +398,11 @@
   .lg\:inline-flex {
     @media (width >= 64rem) {
       display: inline-flex;
+    }
+  }
+  .lg\:p-\[45px\] {
+    @media (width >= 64rem) {
+      padding: 45px;
     }
   }
   .lg\:pl-\[300px\] {
@@ -441,6 +456,12 @@
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
+      --tw-outline-style: solid;
+      --tw-duration: initial;
+    }
+  }
+}
+l;
       --tw-outline-style: solid;
       --tw-duration: initial;
     }
