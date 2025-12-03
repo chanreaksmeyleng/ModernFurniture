@@ -173,14 +173,29 @@
   .relative {
     position: relative;
   }
+  .top-\[55px\] {
+    top: 55px;
+  }
+  .top-\[65px\] {
+    top: 65px;
+  }
   .top-\[85px\] {
     top: 85px;
   }
   .top-\[215px\] {
     top: 215px;
   }
+  .left-\[-25px\] {
+    left: -25px;
+  }
+  .left-\[-30px\] {
+    left: -30px;
+  }
   .left-\[-50px\] {
     left: -50px;
+  }
+  .left-\[-150px\] {
+    left: -150px;
   }
   .z-7 {
     z-index: 7;
@@ -369,6 +384,31 @@
       }
     }
   }
+  .sm\:left-\[-0px\] {
+    @media (width >= 40rem) {
+      left: -0px;
+    }
+  }
+  .sm\:left-\[-25px\] {
+    @media (width >= 40rem) {
+      left: -25px;
+    }
+  }
+  .sm\:left-\[-30px\] {
+    @media (width >= 40rem) {
+      left: -30px;
+    }
+  }
+  .sm\:left-\[-50px\] {
+    @media (width >= 40rem) {
+      left: -50px;
+    }
+  }
+  .sm\:left-\[-150px\] {
+    @media (width >= 40rem) {
+      left: -150px;
+    }
+  }
   .sm\:hidden {
     @media (width >= 40rem) {
       display: none;
@@ -454,6 +494,11 @@
       font-size: 38px;
     }
   }
+  .md\:left-\[-50px\] {
+    @media (width >= 48rem) {
+      left: -50px;
+    }
+  }
   .md\:inline-flex {
     @media (width >= 48rem) {
       display: inline-flex;
@@ -489,6 +534,11 @@
       font-size: 68px;
     }
   }
+  .lg\:left-\[-50px\] {
+    @media (width >= 64rem) {
+      left: -50px;
+    }
+  }
   .lg\:inline-flex {
     @media (width >= 64rem) {
       display: inline-flex;
@@ -522,6 +572,13 @@
   .lg\:text-\[98px\] {
     @media (width >= 64rem) {
       font-size: 98px;
+    }
+  }
+  .md\:lg\:left-\[-50px\] {
+    @media (width >= 48rem) {
+      @media (width >= 64rem) {
+        left: -50px;
+      }
     }
   }
   .md\:lg\:h-\[10vh\] {
