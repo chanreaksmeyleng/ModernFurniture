@@ -173,17 +173,47 @@
   .relative {
     position: relative;
   }
+  .top-\[35px\] {
+    top: 35px;
+  }
   .top-\[55px\] {
     top: 55px;
   }
   .top-\[65px\] {
     top: 65px;
   }
+  .top-\[75px\] {
+    top: 75px;
+  }
   .top-\[85px\] {
     top: 85px;
   }
+  .top-\[95px\] {
+    top: 95px;
+  }
+  .top-\[105px\] {
+    top: 105px;
+  }
+  .top-\[115px\] {
+    top: 115px;
+  }
+  .top-\[135px\] {
+    top: 135px;
+  }
+  .top-\[140px\] {
+    top: 140px;
+  }
+  .top-\[145px\] {
+    top: 145px;
+  }
+  .top-\[165px\] {
+    top: 165px;
+  }
   .top-\[215px\] {
     top: 215px;
+  }
+  .right-\[25px\] {
+    right: 25px;
   }
   .left-\[-25px\] {
     left: -25px;
@@ -196,6 +226,9 @@
   }
   .left-\[-150px\] {
     left: -150px;
+  }
+  .left-\[25px\] {
+    left: 25px;
   }
   .z-7 {
     z-index: 7;
@@ -298,6 +331,9 @@
   .pt-\[15px\] {
     padding-top: 15px;
   }
+  .pt-\[35px\] {
+    padding-top: 35px;
+  }
   .pt-\[45px\] {
     padding-top: 45px;
   }
@@ -309,6 +345,9 @@
   }
   .pt-\[150px\] {
     padding-top: 150px;
+  }
+  .pt-\[350px\] {
+    padding-top: 350px;
   }
   .pl-\[15px\] {
     padding-left: 15px;
@@ -384,6 +423,61 @@
       }
     }
   }
+  .sm\:top-\[35px\] {
+    @media (width >= 40rem) {
+      top: 35px;
+    }
+  }
+  .sm\:top-\[55px\] {
+    @media (width >= 40rem) {
+      top: 55px;
+    }
+  }
+  .sm\:top-\[65px\] {
+    @media (width >= 40rem) {
+      top: 65px;
+    }
+  }
+  .sm\:top-\[95px\] {
+    @media (width >= 40rem) {
+      top: 95px;
+    }
+  }
+  .sm\:top-\[105px\] {
+    @media (width >= 40rem) {
+      top: 105px;
+    }
+  }
+  .sm\:top-\[115px\] {
+    @media (width >= 40rem) {
+      top: 115px;
+    }
+  }
+  .sm\:top-\[135px\] {
+    @media (width >= 40rem) {
+      top: 135px;
+    }
+  }
+  .sm\:top-\[145px\] {
+    @media (width >= 40rem) {
+      top: 145px;
+    }
+  }
+  .sm\:top-\[165px\] {
+    @media (width >= 40rem) {
+      top: 165px;
+    }
+  }
+  .sm\:right-\[-25px\] {
+    @media (width >= 40rem) {
+      right: -25px;
+    }
+  }
+  .sm\:right-\[25px\] {
+    @media (width >= 40rem) {
+      right: 25px;
+    }
+  }
   .sm\:left-\[-0px\] {
     @media (width >= 40rem) {
       left: -0px;
@@ -449,6 +543,21 @@
       height: vh;
     }
   }
+  .sm\:pt-\[35px\] {
+    @media (width >= 40rem) {
+      padding-top: 35px;
+    }
+  }
+  .sm\:pt-\[50px\] {
+    @media (width >= 40rem) {
+      padding-top: 50px;
+    }
+  }
+  .sm\:pt-\[100px\] {
+    @media (width >= 40rem) {
+      padding-top: 100px;
+    }
+  }
   .sm\:pl-\[25px\] {
     @media (width >= 40rem) {
       padding-left: 25px;
@@ -494,6 +603,31 @@
       font-size: 38px;
     }
   }
+  .md\:top-\[95px\] {
+    @media (width >= 48rem) {
+      top: 95px;
+    }
+  }
+  .md\:top-\[195px\] {
+    @media (width >= 48rem) {
+      top: 195px;
+    }
+  }
+  .md\:right-\[-50px\] {
+    @media (width >= 48rem) {
+      right: -50px;
+    }
+  }
+  .md\:right-\[50px\] {
+    @media (width >= 48rem) {
+      right: 50px;
+    }
+  }
+  .md\:right-\[150px\] {
+    @media (width >= 48rem) {
+      right: 150px;
+    }
+  }
   .md\:left-\[-50px\] {
     @media (width >= 48rem) {
       left: -50px;
@@ -512,6 +646,11 @@
   .md\:p-\[15px\] {
     @media (width >= 48rem) {
       padding: 15px;
+    }
+  }
+  .md\:pt-\[100px\] {
+    @media (width >= 48rem) {
+      padding-top: 100px;
     }
   }
   .md\:pl-\[200px\] {
@@ -534,6 +673,31 @@
       font-size: 68px;
     }
   }
+  .lg\:top-\[95px\] {
+    @media (width >= 64rem) {
+      top: 95px;
+    }
+  }
+  .lg\:top-\[195px\] {
+    @media (width >= 64rem) {
+      top: 195px;
+    }
+  }
+  .lg\:right-\[-50px\] {
+    @media (width >= 64rem) {
+      right: -50px;
+    }
+  }
+  .lg\:right-\[50px\] {
+    @media (width >= 64rem) {
+      right: 50px;
+    }
+  }
+  .lg\:right-\[150px\] {
+    @media (width >= 64rem) {
+      right: 150px;
+    }
+  }
   .lg\:left-\[-50px\] {
     @media (width >= 64rem) {
       left: -50px;
@@ -554,6 +718,11 @@
       padding: 15px;
     }
   }
+  .lg\:pt-\[100px\] {
+    @media (width >= 64rem) {
+      padding-top: 100px;
+    }
+  }
   .lg\:pl-\[300px\] {
     @media (width >= 64rem) {
       padding-left: 300px;
@@ -572,6 +741,13 @@
   .lg\:text-\[98px\] {
     @media (width >= 64rem) {
       font-size: 98px;
+    }
+  }
+  .md\:lg\:top-\[95px\] {
+    @media (width >= 48rem) {
+      @media (width >= 64rem) {
+        top: 95px;
+      }
     }
   }
   .md\:lg\:left-\[-50px\] {
