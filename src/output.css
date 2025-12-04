@@ -331,6 +331,9 @@
   .p-\[15px\] {
     padding: 15px;
   }
+  .pt-\[0px\] {
+    padding-top: 0px;
+  }
   .pt-\[15px\] {
     padding-top: 15px;
   }
@@ -532,6 +535,11 @@
   .sm\:h-\[10vh\] {
     @media (width >= 40rem) {
       height: 10vh;
+    }
+  }
+  .sm\:pt-\[0px\] {
+    @media (width >= 40rem) {
+      padding-top: 0px;
     }
   }
   .sm\:pt-\[15px\] {
