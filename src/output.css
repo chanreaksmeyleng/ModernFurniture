@@ -375,6 +375,11 @@
       top: 145px;
     }
   }
+  .sm\:right-\[100px\] {
+    @media (width >= 40rem) {
+      right: 100px;
+    }
+  }
   .sm\:left-\[25px\] {
     @media (width >= 40rem) {
       left: 25px;
@@ -450,6 +455,11 @@
       top: 195px;
     }
   }
+  .md\:right-\[100px\] {
+    @media (width >= 48rem) {
+      right: 100px;
+    }
+  }
   .md\:left-\[-50px\] {
     @media (width >= 48rem) {
       left: -50px;
@@ -523,6 +533,11 @@
   .lg\:top-\[195px\] {
     @media (width >= 64rem) {
       top: 195px;
+    }
+  }
+  .lg\:right-\[100px\] {
+    @media (width >= 64rem) {
+      right: 100px;
     }
   }
   .lg\:left-\[-50px\] {
