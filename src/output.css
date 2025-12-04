@@ -230,6 +230,9 @@
   .left-\[165px\] {
     left: 165px;
   }
+  .left-\[175px\] {
+    left: 175px;
+  }
   .left-\[185px\] {
     left: 185px;
   }
@@ -501,6 +504,11 @@
   .sm\:left-\[165px\] {
     @media (width >= 40rem) {
       left: 165px;
+    }
+  }
+  .sm\:left-\[175px\] {
+    @media (width >= 40rem) {
+      left: 175px;
     }
   }
   .sm\:left-\[185px\] {
