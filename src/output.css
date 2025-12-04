@@ -203,6 +203,9 @@
   .left-\[45px\] {
     left: 45px;
   }
+  .left-\[55px\] {
+    left: 55px;
+  }
   .z-7 {
     z-index: 7;
   }
@@ -420,6 +423,11 @@
   .sm\:left-\[45px\] {
     @media (width >= 40rem) {
       left: 45px;
+    }
+  }
+  .sm\:left-\[55px\] {
+    @media (width >= 40rem) {
+      left: 55px;
     }
   }
   .sm\:left-\[125px\] {
