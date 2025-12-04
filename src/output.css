@@ -230,6 +230,9 @@
   .left-\[165px\] {
     left: 165px;
   }
+  .left-\[185px\] {
+    left: 185px;
+  }
   .z-7 {
     z-index: 7;
   }
@@ -498,6 +501,11 @@
   .sm\:left-\[165px\] {
     @media (width >= 40rem) {
       left: 165px;
+    }
+  }
+  .sm\:left-\[185px\] {
+    @media (width >= 40rem) {
+      left: 185px;
     }
   }
   .sm\:hidden {
