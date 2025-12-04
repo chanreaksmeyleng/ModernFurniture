@@ -534,6 +534,11 @@
       height: 10vh;
     }
   }
+  .sm\:pt-\[15px\] {
+    @media (width >= 40rem) {
+      padding-top: 15px;
+    }
+  }
   .sm\:pt-\[35px\] {
     @media (width >= 40rem) {
       padding-top: 35px;
