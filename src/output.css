@@ -197,6 +197,9 @@
   .left-\[185px\] {
     left: 185px;
   }
+  .left-\[195px\] {
+    left: 195px;
+  }
   .z-7 {
     z-index: 7;
   }
@@ -217,6 +220,9 @@
   }
   .hidden {
     display: none;
+  }
+  .table {
+    display: table;
   }
   .h-\[10vh\] {
     height: 10vh;
@@ -239,6 +245,12 @@
   .w-full {
     width: 100%;
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
+  }
   .flex-row {
     flex-direction: row;
   }
@@ -259,6 +271,10 @@
   }
   .gap-\[70px\] {
     gap: 70px;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .border-b-3 {
     border-bottom-style: var(--tw-border-style);
@@ -314,6 +330,13 @@
   }
   .text-\[\#808390\] {
     color: #808390;
+  }
+  .underline {
+    text-decoration-line: underline;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .duration-500 {
     --tw-duration: 500ms;
@@ -375,6 +398,11 @@
   .sm\:left-\[185px\] {
     @media (width >= 40rem) {
       left: 185px;
+    }
+  }
+  .sm\:left-\[195px\] {
+    @media (width >= 40rem) {
+      left: 195px;
     }
   }
   .sm\:hidden {
@@ -442,6 +470,11 @@
       left: 800px;
     }
   }
+  .md\:left-\[830px\] {
+    @media (width >= 48rem) {
+      left: 830px;
+    }
+  }
   .md\:inline-flex {
     @media (width >= 48rem) {
       display: inline-flex;
@@ -502,6 +535,11 @@
       left: 50px;
     }
   }
+  .lg\:left-\[80px\] {
+    @media (width >= 64rem) {
+      left: 80px;
+    }
+  }
   .lg\:left-\[450px\] {
     @media (width >= 64rem) {
       left: 450px;
@@ -510,6 +548,11 @@
   .lg\:left-\[800px\] {
     @media (width >= 64rem) {
       left: 800px;
+    }
+  }
+  .lg\:left-\[830px\] {
+    @media (width >= 64rem) {
+      left: 830px;
     }
   }
   .lg\:inline-flex {
@@ -568,6 +611,11 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -578,6 +626,7 @@
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
+      --tw-outline-style: solid;
       --tw-duration: initial;
     }
   }
