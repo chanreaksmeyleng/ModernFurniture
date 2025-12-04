@@ -561,6 +561,16 @@
       left: 50px;
     }
   }
+  .md\:left-\[100px\] {
+    @media (width >= 48rem) {
+      left: 100px;
+    }
+  }
+  .md\:left-\[200px\] {
+    @media (width >= 48rem) {
+      left: 200px;
+    }
+  }
   .md\:inline-flex {
     @media (width >= 48rem) {
       display: inline-flex;
@@ -629,6 +639,16 @@
   .lg\:left-\[50px\] {
     @media (width >= 64rem) {
       left: 50px;
+    }
+  }
+  .lg\:left-\[100px\] {
+    @media (width >= 64rem) {
+      left: 100px;
+    }
+  }
+  .lg\:left-\[300px\] {
+    @media (width >= 64rem) {
+      left: 300px;
     }
   }
   .lg\:inline-flex {
