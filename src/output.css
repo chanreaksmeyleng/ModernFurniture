@@ -337,8 +337,14 @@
   .pl-\[45px\] {
     padding-left: 45px;
   }
+  .pl-\[55px\] {
+    padding-left: 55px;
+  }
   .pl-\[185px\] {
     padding-left: 185px;
+  }
+  .pl-\[195px\] {
+    padding-left: 195px;
   }
   .text-\[38px\] {
     font-size: 38px;
@@ -500,9 +506,19 @@
       padding-left: 45px;
     }
   }
+  .sm\:pl-\[55px\] {
+    @media (width >= 40rem) {
+      padding-left: 55px;
+    }
+  }
   .sm\:pl-\[185px\] {
     @media (width >= 40rem) {
       padding-left: 185px;
+    }
+  }
+  .sm\:pl-\[195px\] {
+    @media (width >= 40rem) {
+      padding-left: 195px;
     }
   }
   .sm\:text-\[12px\] {
