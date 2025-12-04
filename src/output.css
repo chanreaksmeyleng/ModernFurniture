@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-500: oklch(63.7% 0.237 25.331);
     --color-white: #fff;
     --spacing: 0.25rem;
     --font-weight-medium: 500;
@@ -179,6 +180,9 @@
   .top-\[115px\] {
     top: 115px;
   }
+  .top-\[125px\] {
+    top: 125px;
+  }
   .top-\[145px\] {
     top: 145px;
   }
@@ -325,6 +329,9 @@
   .border-white {
     border-color: var(--color-white);
   }
+  .bg-red-500 {
+    background-color: var(--color-red-500);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -425,6 +432,11 @@
   .sm\:top-\[115px\] {
     @media (width >= 40rem) {
       top: 115px;
+    }
+  }
+  .sm\:top-\[125px\] {
+    @media (width >= 40rem) {
+      top: 125px;
     }
   }
   .sm\:top-\[145px\] {
@@ -607,6 +619,11 @@
       top: 95px;
     }
   }
+  .md\:top-\[125px\] {
+    @media (width >= 48rem) {
+      top: 125px;
+    }
+  }
   .md\:top-\[135px\] {
     @media (width >= 48rem) {
       top: 135px;
@@ -682,6 +699,11 @@
       padding: 15px;
     }
   }
+  .md\:pt-\[0px\] {
+    @media (width >= 48rem) {
+      padding-top: 0px;
+    }
+  }
   .md\:pt-\[100px\] {
     @media (width >= 48rem) {
       padding-top: 100px;
@@ -715,6 +737,11 @@
   .lg\:top-\[95px\] {
     @media (width >= 64rem) {
       top: 95px;
+    }
+  }
+  .lg\:top-\[125px\] {
+    @media (width >= 64rem) {
+      top: 125px;
     }
   }
   .lg\:top-\[135px\] {
@@ -802,6 +829,11 @@
       padding: 15px;
     }
   }
+  .lg\:pt-\[0px\] {
+    @media (width >= 64rem) {
+      padding-top: 0px;
+    }
+  }
   .lg\:pt-\[100px\] {
     @media (width >= 64rem) {
       padding-top: 100px;
@@ -830,6 +862,13 @@
   .lg\:text-\[98px\] {
     @media (width >= 64rem) {
       font-size: 98px;
+    }
+  }
+  .md\:lg\:top-\[125px\] {
+    @media (width >= 48rem) {
+      @media (width >= 64rem) {
+        top: 125px;
+      }
     }
   }
   .md\:lg\:pt-\[150px\] {
