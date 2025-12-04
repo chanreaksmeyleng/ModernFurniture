@@ -209,6 +209,9 @@
   .left-\[45px\] {
     left: 45px;
   }
+  .left-\[50px\] {
+    left: 50px;
+  }
   .left-\[55px\] {
     left: 55px;
   }
@@ -449,6 +452,11 @@
   .sm\:left-\[45px\] {
     @media (width >= 40rem) {
       left: 45px;
+    }
+  }
+  .sm\:left-\[50px\] {
+    @media (width >= 40rem) {
+      left: 50px;
     }
   }
   .sm\:left-\[55px\] {
